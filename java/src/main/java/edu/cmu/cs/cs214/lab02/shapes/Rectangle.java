@@ -8,8 +8,8 @@ public class Rectangle implements Shape {
         this.height = height;
         this.width = width;
     }
-    
-    @Override
+
+    //@Override
     public double getArea() {
         return height * width;
     }
